@@ -1,0 +1,35 @@
+.navbar {
+    
+}
+
+.nav-mar {
+    margin-right: 25px;
+
+}
+
+.header-margin {
+    margin-top: 25px;
+}
+
+.carousel-item2 {
+    position: absolute;
+    margin: 0;
+    color: white;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.full-screen {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .carousel-caption {
+      background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .carousel {
+      border: black;
+  }
