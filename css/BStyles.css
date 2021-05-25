@@ -36,4 +36,13 @@
 
   h1, h2, h3 {
       font-family: "Merriweather", regular;
+      color: whitesmoke;
+  }
+
+  .dr-logo {
+      height: 100px;
+  }
+
+  .modal-text-color {
+      color: black;
   }
