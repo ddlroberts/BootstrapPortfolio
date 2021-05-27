@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>DR Carpentry</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- 
+        bootstrap styles 
+        using a local copy of bootstrap found in MY node_modules folder
+    -->
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- end bootstrap styles -->
+
+   
+</head>
+
+
+<body>
+
+    <nav class="navbar navbar-expand-sm navbar-light">       
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#drFurnitureNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <span class="navbar-text ml-auto">
+            <a role="button" class="btn btn-lg" data-toggle="modal" data-target="#search"><i class="fa fa-search"></i></a>
+            <a role="button" class="btn btn-lg" data-toggle="modal" data-target="#cart"><i class="fa fa-shopping-cart"></i></a>
+            <a role="button" class="btn btn-lg" data-toggle="modal" data-target="#loginMod"><i class="fa fa-user"></i></a>
+        </span>
+    </nav>
+    <header class="logoheader">
+        <div class="container">
+            <div class="row row-content align-items-center">
+                <div class="col media">
+                    <a role="button" href="Home.html"><img src="/images/DRLogo.png" class="dr-logo mr-3"></a>
+                    <div class="media-body">
+                        <h1 class="">Custom Furniture</h1>
+                        <h3 class="">If you can picture it, We can build it.</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </header>
+        <nav class="navbar navbar-expand-sm sticky-top">
+            <div class="container-fluid">
+                <a class="navbar-brand"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="justify-end-content" id="Navigation">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item"><a class="nav-link" href="Home.html"><i class="fa fa-home fa-lg"></i> Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="about.html"><i class="fa fa-info fa-lg"></i> About</a></li>
+                        <li class="nav-item active"><a class="nav-link" href="#"><i class="fa fa-pencil-square-o fa-lg"></i> Design</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contactus.html"><i class="fa fa-address-card fa-lg"></i> Connect</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    
+    <div class="container">
+        <div class="row row-content align-items-center">
+            <div class="col col-sm-6">
+                <h3>Request a Quote Today</h3>
+                <p>All of our unique wood furniture is crafted by hand and custom built to your specification.
+                    That's why each furniture purchase starts with a conversation with Dale to understand your design.
+                    Simply fill out the form below or call 678-372-8874. To get your project started.
+                </p>
+            </div>
+        </div>
+        <div class="col-md-10">
+            <form>
+                <div class="form-group row">
+                    <label for="firstName" class="col-md-2 col-form-label">First Name</label> 
+                    <div class="col-md-10">
+                        <input type="text" class="form-control" id="firstName" name="firstName" placeholder="First Name" /> 
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="lastName" class="col-md-2 col-form-label">Last Name</label>
+                    <div class="col-md-10">
+                        <input type="text" class="form-control" id="lastName" name="lastName" placeholder="Last Name" />
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="areaCode" class="col-md-2 col-form-label" >Phone Number</label>
+                    <div class="col-5 col-md-3">
+                        <input type="tel" class="form-control" id="areaCode" name="areaCode" placeholder="Area code" />
+                    </div>   
+                    <div class="col-7">
+                        <input type="tel" class="form-control" name="telNum" placeholder="Tel. number" /> 
+                    </div>
+                </div>    
+                <div class="form-group row">
+                    <label for="email" class="col-md-2 col-form-label">Email</label> 
+                    <div class="col-md-10">
+                        <input type="email" class="form-control" id="email" name="email" placeholder="Email" />
+                    </div> 
+                </div> 
+                
+                <div class="form-group row">
+                    <label for="feedback" class="col-md-2 col-form-label">Design information</label>
+                    <div class="col-md-10">
+                        <textarea class="form-control" id="quote" name="quote" rows="8" placeholder="Tell us how you will like your furniture customized (i.e materials, dimensions, details of design)."></textarea>
+                    </div>
+                </div>
+                <div class="form-group row">
+                  <div class="offset-md-2 col-md-10">
+                     <button type="submit" class="btn btn-primary">Submit</button>
+                  </div>   
+                </div>
+            </form>
+        </div>
+    </div>
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-4 col-sm-2 offset-1">
+                    <h5>Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Design</a></li>
+                        <li><a href="contactus.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-sm-5 text-center">
+                    <h5>Social</h5>
+                    <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i class="fa fa-instagram"></i></a>
+                    <a class="btn btn-social-icon btn-facebook" href="http://facebook.com/"><i class="fa fa-facebook"></i></a>
+                    <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
+                    <a class="btn btn-social-icon btn-youtube" href="http://youtube.com/"><i class="fa fa-youtube"></i></a>
+            </div>
+            <div class="col-sm-4 text-center">
+                <a role="button" class="btn btn-link" href="tel:+1768-345-8874"><i class="fa fa-phone"></i> 1-678-345-8874</a><br>
+                <a role="button" class="btn btn-link" href="mailto:ddlroberts@hotmail.com"><i class="fa fa-envelope-o"></i> droberts@customfurniture.com</a>
+                </div>
+            </div>
+        </div>
+    </footer>   
+    
+
+    <!-- bootstrap stuff using npm -->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- end bootstrap stuff -->
+    
+    
+</body>
+
+</html>
