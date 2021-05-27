@@ -27,7 +27,12 @@
   }
 
   .carousel-caption {
-      background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.5);
+    bottom: 500px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -100%);
+
   }
 
   .carousel {
